@@ -1,0 +1,24 @@
+{
+  "name": "hotel-nodejs",
+  "version": "1.0.0",
+  "description": "Hotel site",
+  "main": "hotelNode.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@hotel.github.com:DeveloperViktorK/Hotel-nodejs.git"
+  },
+  "keywords": [
+    "hotel",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}
