@@ -4,12 +4,17 @@
   "description": "Hotel site",
   "main": "hotelNode.js",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.1"
+    "express-handlebars": "^5.2.1",
+    "node-fetch": "^2.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon hotelNode.js"
   },
   "repository": {
     "type": "git",

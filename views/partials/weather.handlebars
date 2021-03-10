@@ -1,0 +1,17 @@
+<div class="weatherWidget">
+    {{#each partials.weatherContext}}    
+        <div class="location">
+            <h3>{{feels_like}}</h3>
+            <h3>{{temp_water}}</h3>
+            <a href="{{location.forecastUrl}}">
+            <img src="{{iconUrl}}" alt="{{weather}}">
+            <img src=" https://yastatic.net/weather/i/icons/blueye/color/svg/{{icon}}.svg" height="150" alt="{{icon}}">
+            <h5>{{condition}}, {{temp}}</h5>            
+            </a>
+        </div>
+    {{/each}} 
+    <small>Источник: 
+        <a href="https://yandex.ru/pogoda/moscow/"> Яндекс.Погода
+        </a>
+    </small>
+</div>

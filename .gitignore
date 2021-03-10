@@ -1,3 +1,5 @@
+config/weatherAPI.json
+
 # Logs
 logs
 *.log
